@@ -1,7 +1,7 @@
 import "./app.css";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import SendIcon from "@mui/icons-material/Send";
-import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+// import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+// import SendIcon from "@mui/icons-material/Send";
+// import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
@@ -67,7 +67,7 @@ const Postview = () => {
                 <div className="sp-1">
                   <div className="min-nav">
                     <h4 className="name">{data.name}</h4>
-                    <MoreHorizIcon />
+                    {/* <MoreHorizIcon /> */}
                   </div>
                   <p className="med">{data.location}</p>
                 </div>
@@ -78,10 +78,10 @@ const Postview = () => {
                   alt=""
                 />
                 <div className="sp2">
-                  <div className="likesend">
-                    <FavoriteBorderIcon />
-                    <SendIcon />
-                  </div>
+                  {/* <div className="likesend"> */}
+                    {/* <FavoriteBorderIcon />
+                    <SendIcon /> */}
+                  {/* </div> */}
                   <p className="med">{data.Date}</p>
                 </div>
                 <div className="sp3">
