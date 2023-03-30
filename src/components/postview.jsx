@@ -1,7 +1,7 @@
 import "./app.css";
-// import FavoriteBorderIcon from //"@mui/icons-material/FavoriteBorder";
-// import SendIcon from "@mui/icons-material/Send";
-// import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import SendIcon from "@mui/icons-material/Send";
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
